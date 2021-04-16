@@ -6,6 +6,7 @@
         <template v-slot:content>
             <SectionTop/>
             <SectionAbout/>
+            <SectionServices/>
         </template>
         <template v-slot:footer>
             <MainFooter/>
@@ -19,6 +20,7 @@
     import MainFooter from "../../layouts/MainFooter";
     import SectionTop from "../../components/SectionTop";
     import SectionAbout from "../../components/SectionAbout";
+    import SectionServices from "../../components/SectionServices";
     export default {
         name: "Home",
         components: {
@@ -26,7 +28,8 @@
             MainHeader,
             MainFooter,
             SectionTop,
-            SectionAbout
+            SectionAbout,
+            SectionServices
         }
     }
 </script>

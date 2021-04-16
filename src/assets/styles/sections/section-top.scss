@@ -6,16 +6,13 @@
   background-position: center;
   color: white;
   padding-top: 50px;
-  //&::after{
-  //  content: '';
-    //background-color: red;
-    //width: 105%;
-    //height: 10px;
-    //display: block;
-    //transform: rotate(-5.3deg) skew(-5.2deg);
-    //position: relative;
-    //left: -5px;
-  //}
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+  @media screen and (max-width: 768px){
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  }
+  @media screen and (max-width: 576px){
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  }
 }
 .section-wrap{
   max-width: 1284px;
@@ -23,7 +20,6 @@
   margin-right: auto;
   padding-right: 30px;
   padding-left: 30px;
-  //border: 1px solid transparent;
   @media screen and (max-width: 768px){
     padding-left: 75px;
     padding-right: 20px;
