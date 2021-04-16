@@ -1,0 +1,70 @@
+.modal-menu{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 900;
+  background-color: rgba(0,0,0,.2);
+  height: 450px;
+  display: flex;
+  &__body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    .top-line{
+      width: 100%;
+      height: 90px;
+      background-image: url(../img/background-modal.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      @media screen and (max-width: 576px){
+        height: 60px;
+      }
+    }
+    .menu{
+      .modal-list{
+        list-style: none;
+        //border: 1px solid black;
+        padding-left: 0;
+        padding-top: 10px;
+        a{
+          width: 100%;
+          height: 55px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          text-decoration: none;
+          font-family: "Lato Medium", Arial, sans-serif;
+          font-size: 13.48px;
+          color: #171616;
+          border-bottom: 1px solid #fdb662;
+          padding-left: 15%;
+          padding-right: 10%;
+        }
+      }
+    }
+  }
+  &__line{
+    height: 100%;
+    width: 100px;
+    @media screen and (max-width: 576px){
+      width: 60px;
+    }
+    a{
+      display: block;
+      width: 100%;
+      height: 90px;
+      background-image: url(../img/close.png);
+      background-size: 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #1a1919;
+      @media screen and (max-width: 576px){
+        height: 60px;
+      }
+    }
+  }
+}
+.modal-menu.hidden{
+  display: none;
+}

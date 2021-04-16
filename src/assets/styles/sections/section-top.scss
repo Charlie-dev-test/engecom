@@ -1,0 +1,170 @@
+.section-top{
+  width: 100%;
+  background-image: url(../img/background-top.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 50px;
+  //&::after{
+  //  content: '';
+    //background-color: red;
+    //width: 105%;
+    //height: 10px;
+    //display: block;
+    //transform: rotate(-5.3deg) skew(-5.2deg);
+    //position: relative;
+    //left: -5px;
+  //}
+}
+.section-wrap{
+  max-width: 1284px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  //border: 1px solid transparent;
+  @media screen and (max-width: 768px){
+    padding-left: 75px;
+    padding-right: 20px;
+  }
+  @media screen and (max-width: 576px){
+    padding-left: 40px;
+    padding-right: 15px;
+  }
+}
+.top-info{
+  display: flex;
+  justify-content: flex-end;
+  &__phone{
+    @media screen and (max-width: 768px){
+      display: none;
+    }
+    a{
+      font-family: 'Lato Black', Arial, sans-serif;
+      color: #ffffff;
+      text-decoration: none;
+      display: inline-block;
+      &:before{
+        display: inline-block;
+        content: url(../img/phone-call.svg);
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        position: relative;
+        top: 5px;
+      }
+    }
+    p{
+      color: #fdb662;
+      text-align: right;
+      font-family: "Lato Black", Arial, sans-serif;
+      font-size: 13px;
+    }
+  }
+  &__address{
+    margin-left: 65px;
+    @media screen and (max-width: 768px){
+      display: none;
+    }
+    @media screen and (max-width: 576px){
+      display: block;
+      margin-right: 10px;
+    }
+    a{
+      font-family: 'Lato Black', Arial, sans-serif;
+      color: #ffffff;
+      text-decoration: none;
+      display: inline-block;
+      &:before{
+        display: inline-block;
+        content: url(../img/location.svg);
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        position: relative;
+        top: 5px;
+      }
+    }
+    p{
+      color: #fdb662;
+      text-align: right;
+      font-family: "Lato Black", Arial, sans-serif;
+      font-size: 13px;
+    }
+  }
+}
+.top-subheader{
+  font-family: "Lato Medium", Arial, sans-serif;
+  font-size: 37px;
+  color: #fdb662;
+  margin-top: 175px;
+  @media screen and (max-width: 1024px){
+    font-size: 25.5px;
+  }
+  @media screen and (max-width: 768px){
+    font-size: 19.75px;
+    margin-top: 40px;
+  }
+  @media screen and (max-width: 650px){
+    font-size: 14px;
+  }
+}
+.main-header{
+  font-family: "Lato Black", Arial, sans-serif;
+  font-size: 58px;
+  margin-top: 15px;
+  @media screen and (max-width: 1024px){
+    font-size: 40px;
+  }
+  @media screen and (max-width: 768px){
+    font-size: 30.95px;
+  }
+  @media screen and (max-width: 650px){
+    font-size: 23px;
+  }
+  @media screen and (max-width: 576px){
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  span{
+    display: inline-block;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 50px;
+    @media screen and (max-width: 1024px){
+      padding-bottom: 30px;
+    }
+    @media screen and (max-width: 576px){
+      border: none;
+      padding: 0;
+      display: inline;
+    }
+  }
+}
+.header-line{
+  display: none;
+  @media screen and (max-width: 576px){
+    display: block;
+    width: 50px;
+    border-bottom: 2px solid white;
+    margin-top: 30px;
+  }
+}
+.top-desc{
+  margin-top: 50px;
+  font-family: 'Lato Light', Arial, sans-serif;
+  font-size: 30px;
+  max-width: 600px;
+  padding-bottom: 230px;
+  @media screen and (max-width: 768px){
+    max-width: 330px;
+    font-size: 16px;
+    margin-top: 25px;
+    padding-bottom: 125px;
+  }
+  @media screen and (max-width: 576px){
+    font-size: 12px;
+    padding-bottom: 80px;
+    max-width: 240px;
+  }
+}
