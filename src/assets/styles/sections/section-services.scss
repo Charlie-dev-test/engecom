@@ -1,0 +1,185 @@
+.sliced-service{
+  width: 100%;
+  position: relative;
+  height: 475px;
+  @media screen and (max-width: 768px){
+    height: 270px;
+  }
+  @media screen and (max-width: 576px){
+    height: 230px;
+  }
+  &__bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/1680-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+    @media screen and (max-width: 768px){
+      background-image: url(../img/768-2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    @media screen and (max-width: 576px){
+      background-image: url(../img/320-2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+    }
+  }
+  &__btn{
+    width: 51%;
+    margin-right: 0;
+    margin-left: auto;
+    position: relative;
+    z-index: 60;
+    top: 80%;
+    h2{
+      background-color: #fdb662;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Lato Heavy', Arial, sans-serif;
+      font-size: 50px;
+      max-width: 510px;
+      height: 90px;
+      margin-right: 20%;
+      @media screen and (max-width: 768px){
+        font-size: 31.17px;
+        max-width: 320px;
+        height: 60px;
+      }
+      @media screen and (max-width: 576px){
+        max-width: 160px;
+        height: 40px;
+        font-size: 20px;
+      }
+    }
+  }
+}
+.services{
+  display: flex;
+  flex-direction: column;
+  max-width: 1284px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  @media screen and (max-width: 768px){
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  @media screen and (max-width: 576px){
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  &-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    @media screen and (max-width:576px){
+      flex-direction: column;
+    }
+  }
+}
+.service-card{
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 33.3333%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+  @media screen and (max-width: 768px) {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 40px;
+  }
+  @media screen and (max-width: 680px){
+    width: 50%;
+  }
+  @media screen and (max-width: 576px) {
+    width: 100%;
+    max-width: 320px;
+  }
+  &__img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+    @media screen and (max-width: 768px){
+      width: 60px;
+      height: 60px;
+      margin-bottom: 25px;
+    }
+  }
+  &__title{
+    font-family: 'Lato Black', Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    @media screen and (max-width: 992px){
+      font-size: 18px;
+    }
+    @media screen and (max-width: 768px){
+      font-size: 14.96px;
+    }
+    @media screen and (max-width:576px){
+      font-size: 15.08px;
+      margin-bottom: 10px;
+    }
+  }
+  &__desc{
+    font-size: 18px;
+    font-family: 'Lato Light', Arial, sans-serif;
+    text-align: center;
+    @media screen and (max-width: 992px){
+      font-size: 14px;
+    }
+    @media screen and (max-width: 768px){
+      font-size: 12px;
+    }
+  }
+}
+.calculations{
+  background-image: url(../img/icons/calculations.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.compass{
+  background-image: url(../img/icons/compass.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.design{
+  background-image: url(../img/icons/design.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.hammer{
+  background-image: url(../img/icons/hammer.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.maintenance{
+  background-image: url(../img/icons/maintenance.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.online-support{
+  background-image: url(../img/icons/online-support.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

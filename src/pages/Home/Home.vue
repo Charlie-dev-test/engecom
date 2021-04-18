@@ -7,6 +7,8 @@
             <SectionTop/>
             <SectionAbout/>
             <SectionServices/>
+            <SectionConnect/>
+            <SectionContact/>
         </template>
         <template v-slot:footer>
             <MainFooter/>
@@ -21,6 +23,8 @@
     import SectionTop from "../../components/SectionTop";
     import SectionAbout from "../../components/SectionAbout";
     import SectionServices from "../../components/SectionServices";
+    import SectionConnect from "../../components/SectionConnect";
+    import SectionContact from "../../components/SectionContact";
     export default {
         name: "Home",
         components: {
@@ -29,7 +33,9 @@
             MainFooter,
             SectionTop,
             SectionAbout,
-            SectionServices
+            SectionServices,
+            SectionConnect,
+            SectionContact
         }
     }
 </script>

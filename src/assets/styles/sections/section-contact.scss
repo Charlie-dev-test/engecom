@@ -1,0 +1,14 @@
+.contact{
+  display: flex;
+  height: 440px;
+  margin-bottom: 80px;
+  margin-top: 50px;
+  &-info{
+    width: 50%;
+  }
+  &-map{
+    width: 50%;
+    height: 440px;
+    margin-right: 1px;
+  }
+}
