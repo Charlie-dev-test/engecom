@@ -5,7 +5,7 @@
         <input class="form-control" type="text" placeholder="E-mail">
         <textarea class="form-control" name="question" id="" placeholder="Задайте Ваш вопрос или добавьте комментарий"></textarea>
         <div class="agreement">
-            <p>Отправляя форму обратной связи, вы <a href="">соглашаетесь</a> с условиями <a href="">обработки и использования персональных данных</a></p>
+            <p>Отправляя форму обратной связи, вы <a href='../docs/agreement.pdf' download>соглашаетесь</a> с условиями <a href='../docs/polozhenie-o-pd.pdf' download>обработки и использования персональных данных</a></p>
         </div>
         <button class="form-btn" type="submit">ОТПРАВИТЬ</button>
     </form>

@@ -2,14 +2,25 @@
     <section class="section-contact">
         <div class="contact">
             <div class="contact-info">
-                <h2>ООО «Инженерная комплектация-
-                    комплексные решения»</h2>
+                <div class="info-wrap">
+                    <h2>ООО &laquo;ИНЖЕНЕРНАЯ КОМПЛЕКТАЦИЯ&ndash;КОМПЛЕКСНЫЕ РЕШЕНИЯ</h2>
+                    <div class="props">
+                        <p>199034, САНКТ-ПЕТЕРБУРГ,&shy;
+                            13 ЛИНИЯ В.О., Д. 6-8, ЛИТ. А,&shy;
+                            ПОМ. 46Н, КОМ. 6</p>
+                        <p><a class="contact-tel" href="tel:+78125653315">+7&nbsp;812&nbsp;565&nbsp;33&nbsp;15</a></p>
+                        <p>
+                            <a class="contact-props" href="#">СКАЧАТЬ РЕКВИЗИТЫ</a>
+                        </p>
+                    </div>
+
+                </div>
 
             </div>
             <div class="contact-map">
                 <yandex-map
                         :coords="[59.934961, 30.277016]"
-                        zoom="15"
+                        zoom="16"
                         style="width: 100%; height: 440px;"
                         :cluster-options="{
     1: {clusterDisableClickZoom: true}
