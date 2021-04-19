@@ -13,8 +13,7 @@
                             <a class="contact-props" href="#">СКАЧАТЬ РЕКВИЗИТЫ</a>
                         </p>
                     </div>
-
-                </div>
+            </div>
 
             </div>
             <div class="contact-map">
